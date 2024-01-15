@@ -7,13 +7,13 @@ function login() {
     const password = document.getElementById('password').value;
 
     // Example: Check login credentials
-    if (username === 'suresh' && password === '12345678') {
+    if (username === 'EMERALD' && password === 'Pass12!@') {
         // Successful login
         redirectToExternalWebsite('www.google.com');
         clearLoginError();
     } else {
         // Failed login
-        displayLoginError('Invalid username or password');
+        displayLoginError('Invalid username or password);
     }
 }
 
