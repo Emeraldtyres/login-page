@@ -9,7 +9,7 @@ function login() {
     // Example: Check login credentials
     if (username === 'EMERALD' && password === 'Pass12!@') {
         // Successful login
-        redirectToExternalWebsite('www.google.com');
+        redirectToExternalWebsite('https://emeraldtyres.github.io/Home/');
         clearLoginError();
     } else {
         // Failed login
