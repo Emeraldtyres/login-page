@@ -13,7 +13,7 @@ function login() {
         clearLoginError();
     } else {
         // Failed login
-        displayLoginError('Invalid username or password);
+        displayLoginError('Invalid username or password'); // Corrected the string here
     }
 }
 
@@ -31,3 +31,4 @@ function redirectToExternalWebsite(url) {
     // Redirect the user to the specified external website
     window.location.href = url;
 }
+
